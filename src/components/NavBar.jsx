@@ -6,7 +6,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter as Router} from "react-router-dom";
 
-import logo from '../assets/logo2.png';
+import logo from '../assets/logo3.png';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 

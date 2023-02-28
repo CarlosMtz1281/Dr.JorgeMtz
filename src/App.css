@@ -460,14 +460,23 @@ html,html a {
 }
 
 /*--------------- Trataminetos --------------*/
+.tratamientosSection{
+  background-color: var(--secondary);
+}
+
+.tratamientosSpacer{
+  height: 5vh;
+}
+
 .cajaTratamientos{
   background-color: #ffffff;
   color: #121212;
 }
 .trataminetosTitulo{
   text-align: center;
-  margin-top: 40px;
+  margin-top: 5vh;
   margin-bottom: 40px;
+  color: #121212;
 
 }
 .bloqueTratamientos{

@@ -3,8 +3,8 @@ import img1 from '../assets/fotos consultorio_/foto11.jpg'
 
 export default function Tratamientos(){
     return(
-        <div>
-
+        <div className='tratamientosSection'>
+            <div className='tratamientosSpacer'></div>
             <div id='tratamientos'></div>
             <h1 className="trataminetosTitulo" >Tratamientos</h1>
 
