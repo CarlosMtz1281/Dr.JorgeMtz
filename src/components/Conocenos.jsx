@@ -1,5 +1,7 @@
 
 import img1 from "../assets/fotos consultorio_/foto6.jpg"
+import img2 from "../assets/fotos consultorio_/foto10.jpg"
+import img3 from "../assets/fotos consultorio_/foto4.jpg"
 
 export default function Conocenos(){
     return(
@@ -24,7 +26,7 @@ export default function Conocenos(){
             </div>
             <div className="col-md-4">
                 <a href="javascript:void(0)" className="overlay-img">
-                    <img src={img1}  alt="Error"/>
+                    <img src={img2}  alt="Error"/>
                     <div className="overlay"></div>
                     <div className="des">
                         <h1 className="title">Diagnostico y tratamiento </h1>
@@ -36,7 +38,7 @@ export default function Conocenos(){
             </div>
             <div className="col-md-4" >
                 <a href="javascript:void(0)" className="overlay-img">
-                    <img src={img1}  alt="Error"/>
+                    <img src={img3}  alt="Error"/>
                     <div className="overlay"></div>
                     <div className="des">
                         <h1 className="title">Atencion Personal</h1>
