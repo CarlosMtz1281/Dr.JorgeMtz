@@ -7,7 +7,7 @@ export default function TarjetaBlog(props){
         <div>
             <div className="blogItem">
 
-            <img src={("projects/"+ props.item.image)} className="bFoto"/>
+            <img src={("fotosConsultorio/"+ props.item.image)} className="bFoto"/>
 
 
             <div className="blogTxtWrap">

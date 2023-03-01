@@ -776,6 +776,7 @@ ul.social-buttons li:last-child {
 .blogWrap{
   margin-top: 10vh;
   height: 100vh;
+  color: #121212;
 }
 
 .bSectionTittle{
@@ -793,8 +794,12 @@ ul.social-buttons li:last-child {
   border-radius: 10px;
   overflow: hidden;
   height: 60vh;
+/*
+  min-width: 300px;
+  max-width: 370px;
+  */
   width: 300px;
-  background-color: #3c4b60;
+  background-color: var(--secondary);
   margin: 0 auto 15px auto;
 
 
@@ -806,6 +811,7 @@ ul.social-buttons li:last-child {
 
 .blogTxtWrap{
   padding: 15px;
+  color: #121212;
 }
 
 .bLangTag{

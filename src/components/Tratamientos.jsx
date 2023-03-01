@@ -1,5 +1,5 @@
 
-import img1 from '../assets/fotos consultorio_/foto11.jpg'
+import img1 from '../assets/fotosConsultorio/foto11.jpg'
 
 export default function Tratamientos(){
     return(

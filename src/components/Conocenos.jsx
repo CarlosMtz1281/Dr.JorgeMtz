@@ -1,7 +1,7 @@
 
-import img1 from "../assets/fotos consultorio_/foto6.jpg"
-import img2 from "../assets/fotos consultorio_/foto10.jpg"
-import img3 from "../assets/fotos consultorio_/foto4.jpg"
+import img1 from "../assets/fotosConsultorio/foto6.jpg"
+import img2 from "../assets/fotosConsultorio/foto10.jpg"
+import img3 from "../assets/fotosConsultorio/foto4.jpg"
 
 export default function Conocenos(){
     return(
