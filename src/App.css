@@ -219,7 +219,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 .bannerSpacer{
-  background-color: #d7d7d7;
+  background-color: var(--secondary);
   background-size: 500px;
   height: 35vh;
 }
@@ -745,3 +745,27 @@ ul.social-buttons li:last-child {
   text-align: center;
 }
 
+/*------FAQ---------*/
+
+.Sectionpreguntas{
+	height: 700px;
+	width: 100%;
+
+}
+.tituloSection2{
+
+	color: #000000;
+	text-align: center;
+
+
+}
+
+
+.FAQsection{
+  height: 80vh;
+  background-color: var(--secondary);
+}
+
+.acordionWrap{
+  padding: 5vw;
+}
