@@ -8,17 +8,23 @@ import Conocenos from './components/Conocenos';
 import Tratamientos from './components/Tratamientos';
 import Footer from './components/Footer';
 
+import Inicio from './pages/inicio';
+import Informacion from './pages/Informacion';
+
+import { Routes,Route } from 'react-router-dom';
+
 function App() {
 
 
   return (
     <div className="App">
-      <NavBar/>
-      <Banner/>
-      <Conocenos/>
-      <Etica/>
-      <Tratamientos/>
-      <Footer/>
+      <Routes>
+        <Route path= "/Dr.JorgeMtz/" element={<Inicio/>}/>
+        <Route path= "/Dr.JorgeMtz/Informacion" element={<Informacion/>}/>
+
+
+      </Routes>
+
 
 
     </div>

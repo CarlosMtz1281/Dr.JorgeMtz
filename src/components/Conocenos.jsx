@@ -6,7 +6,9 @@ import img3 from "../assets/fotos consultorio_/foto4.jpg"
 export default function Conocenos(){
     return(
         <div>
-        <section className="conocenosSection" >
+        <section className="conocenosSection">
+
+            <div id="conocenos"></div>
             <div className="conocenosSpacer"></div>
             <h1 className= "tituloSection">Conócenos</h1>
          </section>

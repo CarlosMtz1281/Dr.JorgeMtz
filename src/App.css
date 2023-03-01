@@ -21,6 +21,15 @@ body,#root {
 /* NavBar CSS*/
 
 /************ Navbar Css ************/
+
+.infoLink{
+  font-weight: 400;
+  color: #fff !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 18px;
+  opacity: 0.75;
+}
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -244,7 +253,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* --------------------Conocenos -----------------*/
 
 .tituloSection{
-  margin-top: 5vh;
+  margin-top: 8vh;
   margin-bottom: 60px;
   text-align: center;
   color: #121212;
@@ -252,7 +261,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 }
 .conocenosSpacer{
-  height: 5px;
+  height: 15px;
   width: 100%;
   display: block;
   align-items: center;
