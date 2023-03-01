@@ -769,3 +769,106 @@ ul.social-buttons li:last-child {
 .acordionWrap{
   padding: 5vw;
 }
+
+/* BLOGGGGGGG*/
+
+
+.blogWrap{
+  margin-top: 10vh;
+  height: 100vh;
+}
+
+.bSectionTittle{
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.carouselContainer{
+  width: 90vw;
+  margin: auto;
+  position: relative;
+}
+
+.blogItem{
+  border-radius: 10px;
+  overflow: hidden;
+  height: 60vh;
+  width: 300px;
+  background-color: #3c4b60;
+  margin: 0 auto 15px auto;
+
+
+}
+.bFoto{
+  width: 50vh;
+  height: 25vh;
+}
+
+.blogTxtWrap{
+  padding: 15px;
+}
+
+.bLangTag{
+  text-align: right;
+  margin-bottom: 3vh;
+}
+
+.bDescription{
+  font-size: 20px;
+}
+
+.customButtonGroup {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.customButtonGroup .customButton {
+  background-color: #0e0e13;
+  border: none;
+  font-size: 1.5rem;
+  color: #fffdfd;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 1rem;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.customButtonGroup .customButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #3e3e44;
+  color: #dfdede;
+}
+
+.customButtonGroup .customButton.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.customButtonGroup .customButton.left {
+  margin-left: -4rem;
+  content: "\2190";
+}
+
+.customButtonGroup .customButton.right {
+  margin-right: -4rem;
+  content: "\2190";
+
+}
+
+
+/* Hide the left and right arrow buttons */
+.react-multiple-carousel__arrow--left,
+.react-multiple-carousel__arrow--right {
+  display: none;
+}
