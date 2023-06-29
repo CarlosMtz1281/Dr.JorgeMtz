@@ -1,5 +1,6 @@
 
 import React from "react";
+import { useEffect } from "react";
 
 import { Barra } from "../components/info/Barra";
 import Banner from "../components/Banner";
@@ -9,6 +10,9 @@ import Footer from "../components/Footer";
 
 
 export default function Informacion(){
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div>
             <Barra/>
