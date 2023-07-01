@@ -6,14 +6,15 @@ import img3 from "../assets/fotosConsultorio/foto4.jpg"
 export default function Conocenos(){
     return(
         <div>
-        <section className="conocenosSection">
+            <section className="conocenosSection">
+            <div className="valoresID" id="conocenos"></div>
 
-            <div id="conocenos"></div>
 
-            <div className="conocenosSpacer">
-                <h1 className= "tituloSection">Valores</h1>
-            </div>
-         </section>
+
+                <div className="conocenosSpacer">
+                    <h1 className= "tituloSection">Valores</h1>
+                </div>
+            </section>
 
          <div className="row mb-4">
             <div className="col-md-4">

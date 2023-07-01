@@ -11,6 +11,8 @@ export default function Tratamientos(){
 
         <div className="lineasTratamientos">
 
+            {/* Empieza la tabla de tratamientos*/ }
+
             <div className="tablaTratamientos"  >
                     <div className="cajaTratamientosImg" style={{backgroundImage: `url(${img1})`}}>
                         <img src={img1} alt="Error" className='fotoTratamientos' />

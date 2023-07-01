@@ -11,7 +11,10 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 export default function FAQ(){
     return (
         <div className="FAQsection">
-            <h1 className="tituloSection2" id="FAQSection">Preguntas Frecuentes</h1>
+            <div id="FAQSection"></div>
+            <div className="tratamientosSpacer"></div>
+
+            <h1 className="tituloSection2">Preguntas Frecuentes</h1>
 
             <div className="acordionWrap">
                 <Accordion>

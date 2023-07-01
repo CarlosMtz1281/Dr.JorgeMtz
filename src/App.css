@@ -252,11 +252,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* --------------------Conocenos -----------------*/
 
+.valoresID{
+  height: 1vh;
+}
+.conocenosSection{
+  margin-top: -20vh;
+}
 .tituloSection{
-  margin-top: -10vh;
+  margin-top: 0vh;
   margin-bottom: 10vh;
   text-align: center;
-  color: #121212;
+  color: #dfdede;
   font-size: 50px;
 
 }
@@ -583,7 +589,7 @@ box-sizing: border-box;
 
 /*--------------- Trataminetos --------------*/
 .tratamientosSection{
-  background-color: var(--secondary);
+  background-color: #ffffffd5;
 }
 
 .tratamientosSpacer{
@@ -757,7 +763,7 @@ ul.social-buttons li:last-child {
 
 }
 .tituloSection2{
-
+  margin-top: 5vh;
 	color: #000000;
 	text-align: center;
 
@@ -768,10 +774,15 @@ ul.social-buttons li:last-child {
 .FAQsection{
   height: 80vh;
   background-color: var(--secondary);
+  height: fit-content;
+
 }
 
 .acordionWrap{
   padding: 5vw;
+  height: fit-content;
+  margin: 0 auto; /* Center the container horizontally */
+
 }
 
 /* BLOGGGGGGG*/
