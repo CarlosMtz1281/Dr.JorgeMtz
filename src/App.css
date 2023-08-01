@@ -396,6 +396,116 @@ html,html a {
   visibility: visible;
 }
 
+/* -----------------Widget Fotos MOBILE---------------------- */
+.overlayImgMOBILE{
+  display: block;
+  background: transparent;
+  position: relative;
+  overflow: hidden;
+  left: 10%;
+  width: 80%;
+
+  margin-bottom: 25px;
+  border-radius: 0.25rem;
+}
+
+.overlayImgMOBILE img {
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
+/* Filtro */
+
+.overlayImgMOBILE .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(52, 58, 64, 0.5);
+  -webkit-transition: all, 1s;
+  transition: all, 1s;
+  border-radius: 0.25rem;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .overlayImgMOBILE .overlay {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.overlayImgMOBILE .des {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  width: 90%;
+  height: 100%;
+  -webkit-transition: all, 0.8s;
+  transition: all, 0.8s;
+
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .overlayImgMOBILE .des {
+    -webkit-transition: none;
+    transition: none;
+
+  }
+}
+
+.overlayImgMOBILE .des .title {
+  font-weight: bold;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin-block-start: 0;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.overlayImgMOBILE .des .subtitle {
+
+  color: #ffffff;
+  text-align: center;
+}
+
+.overlayImgMOBILE .des p {
+  margin-top: 100px;
+  opacity: 1;
+  -webkit-transition: all, 1.2s;
+  transition: all, 1.2s;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .overlayImgMOBILE .des p {
+    -webkit-transition: none;
+    transition: none;
+    text-align: center;
+  }
+}
+
+.overlayImgMOBILE .overlay, .overlay-img:focus .overlay {
+  background: rgba(52, 58, 64, 0.8);
+}
+/* Control de animacion top */
+.overlayImgMOBILE .des, .overlay-img:focus .des {
+  top: 30%;
+}
+
+.overlayImgMOBILE .des p, .overlay-img:focus .des p {
+  margin-top: 15px;
+  opacity: 1;
+  visibility: visible;
+}
+
 
 /*-----------------------ETICA------------------*/
 
@@ -579,7 +689,14 @@ box-sizing: border-box;
   color: #121212;
 
 }
+.textoTratamientos_pM{
+  margin: auto;
+  margin-top:8vh;
+  margin-left: 30px;
+  text-align: left;
+  color: #121212;
 
+}
 
 
 .textoFranja{
@@ -819,6 +936,8 @@ ul.social-buttons li:last-child {
 
 
 }
+
+
 .bFoto{
   width: 50vh;
   height: 25vh;
@@ -893,3 +1012,75 @@ ul.social-buttons li:last-child {
 .react-multiple-carousel__arrow--right {
   display: none;
 }
+
+/*--------------------- BLOGG DESKTOP*/
+
+.blogItemDesktop{
+  border-radius: 10px;
+  overflow: hidden;
+
+  width: 40vw;
+  background-color: var(--secondary);
+  margin: 0 auto 15px auto;
+
+
+}
+
+.blogWrap{
+  margin-top: 10vh;
+  height: 100vh;
+  color: #121212;
+}
+
+.blog-button{
+  background-color: #0e0e13;
+  height: 6vh;
+  width: 10vw;
+  border-radius: 5px;
+  align-items: center;
+
+}
+
+.blog-button:hover{
+  background-color: #3e3e44;
+  color: #dfdede;
+  cursor: pointer;
+}
+
+.blogButtonTxtWrap{
+padding: 10px;
+}
+
+
+.blogButtonTxt{
+  color: white;
+  font-size: 1.5vw;
+  text-align: center;
+
+}
+
+.bFotoDesktop{
+  width: 100%;
+  height: 40vh;
+}
+.blogSpacer{
+  height: 20vh;
+}
+
+/* PARALAX*/
+.paralaxContainer{
+  height: 400vh;
+}
+
+.parallaxLayer {
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .parallaxLayer {
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+

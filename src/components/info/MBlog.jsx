@@ -3,7 +3,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import TarjetaBlog from "./TarjetaBlog";
+import TarjetaBlog from "./MTarjetaBlog";
 
 import data from './blogData'
 
@@ -17,7 +17,7 @@ export default function Blog(){
         },
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
-          items: 2
+          items: 3
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
@@ -78,9 +78,6 @@ export default function Blog(){
                 </div>
 
                 </section>
-
-            </div>
-            <div className="blogSpacer">
 
             </div>
 
