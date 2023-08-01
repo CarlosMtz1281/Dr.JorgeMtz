@@ -251,6 +251,32 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 /* --------------------Conocenos -----------------*/
+.fotoconocWrap{
+
+  position:relative;
+  width:175px;
+  height:175px;
+  margin:0 auto;
+  text-align:center;
+  line-height:180px;
+  font-size:56px;
+  color:#fff;
+  border-radius:50%;
+  box-shadow:0 0 0 0 rgba(0,0,0,0.0);
+  margin-bottom:40px;
+  -webkit-transition:all .3s ease-out;
+  transition:all .3s ease-out;
+
+}
+.fotoConocenos{
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  width: 190px;
+  height: 190px;
+
+}
+
 
 .valoresID{
   height: 1vh;
@@ -925,7 +951,7 @@ ul.social-buttons li:last-child {
 .blogItem{
   border-radius: 10px;
   overflow: hidden;
-  height: 60vh;
+  height: 70vh;
 /*
   min-width: 300px;
   max-width: 370px;
@@ -1083,4 +1109,13 @@ padding: 10px;
   }
 }
 
+/*--------------------- BLOGG MOBILE BUTTON*/
 
+.blog-buttonM{
+  background-color: #0e0e13;
+  height: 10vh;
+  width: 40vw;
+  border-radius: 5px;
+  align-items: center;
+
+}

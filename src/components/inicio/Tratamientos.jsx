@@ -29,7 +29,7 @@ export default function Tratamientos(){
             <div className="tablaTratamientos"  >
                     <div className="cajaTratamientos">
                         <div className="textoTratamientos_p">
-                            <h2 className="tituloFranja">Cirujia Facial</h2>
+                            <h2 className="tituloFranja">Cirugía Facial</h2>
                             <p className="textoFranja"> La cirugía ortognática es un procedimiento mediante el cual pueden corregirse un sin número de alteraciones del crecimiento facial, tales como prognatismo (mandíbula prominente), retrognacia (mandíbula muy pequeña), sonrisa gingival (crecimiento vertical maxilar), y microgenia (mentón pequeño), por mencionar solo algunas. Este tipo de tratamientos se lleva a cabo en hospital, y en la mayoría de los casos, una noche de estancia es suficiente para continuar la recuperación en casa.</p>
                         </div>
 

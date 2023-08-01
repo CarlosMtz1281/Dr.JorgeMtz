@@ -5,7 +5,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import TarjetaBlog from "./MTarjetaBlog";
 
-import data from './blogData'
+import data from './blogDataM'
 
 export default function Blog(){
 

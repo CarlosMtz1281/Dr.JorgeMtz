@@ -1,7 +1,7 @@
 
-import img1 from "../../assets/fotosConsultorio/foto6.jpg"
-import img2 from "../../assets/fotosConsultorio/foto10.jpg"
-import img3 from "../../assets/fotosConsultorio/foto4.jpg"
+import img1 from "../../assets/fotosConsultorio/foto12.jpg"
+import img2 from "../../assets/fotosConsultorio/foto7.jpg"
+import img3 from "../../assets/fotosConsultorio/foto16.jpg"
 
 export default function Conocenos(){
     return(
@@ -28,17 +28,7 @@ export default function Conocenos(){
                     </div>
                 </a>
             </div>
-            <div className="col-md-4">
-                <a href="javascript:void(0)" className="overlay-img">
-                    <img src={img2}  alt="Error"/>
-                    <div className="overlay"></div>
-                    <div className="des">
-                        <h1 className="title">Diagnóstico y tratamiento </h1>
 
-                        <p className ="subtitleSection">Más de 25 años de experiencia clínica y académica, aunado al equipamiento más avanzado (como imagenología 3D), nos permiten no solamente llegar a un diagnóstico preciso, sino proponer las mejores opciones de tratamiento.</p>
-                    </div>
-                </a>
-            </div>
             <div className="col-md-4" >
                 <a href="javascript:void(0)" className="overlay-img">
                     <img src={img3}  alt="Error"/>
@@ -50,6 +40,19 @@ export default function Conocenos(){
                     </div>
                 </a>
             </div>
+
+            <div className="col-md-4">
+                <a href="javascript:void(0)" className="overlay-img">
+                    <img src={img2}  alt="Error"/>
+                    <div className="overlay"></div>
+                    <div className="des">
+                        <h1 className="title">Diagnóstico y tratamiento </h1>
+
+                        <p className ="subtitleSection">Más de 25 años de experiencia clínica y académica, aunado al equipamiento más avanzado (como imagenología 3D), nos permiten no solamente llegar a un diagnóstico preciso, sino proponer las mejores opciones de tratamiento.</p>
+                    </div>
+                </a>
+            </div>
+
         </div>
 </div>
 

@@ -14,7 +14,13 @@ export default function TarjetaBlog(props){
                 <h3>{props.item.tittle}</h3>
 
                 <p className="bDescription">{props.item.description}</p>
-                <p>{props.item.description}</p>
+
+                <div className="blog-button">
+                    <div className="blogButtonTxtWrap">
+                        <h2 className="blogButtonTxt">Leer más</h2>
+                    </div>
+                </div>
+
 
              </div>
 
