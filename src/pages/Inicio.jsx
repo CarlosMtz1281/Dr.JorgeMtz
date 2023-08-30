@@ -1,25 +1,25 @@
-
-import React from "react";
-
-import Etica from '../components/Etica';
+import React, { useEffect } from "react";
+import Etica from '../components/inicio/EticaProf';
 import { NavBar } from '../Components/NavBar';
-import Banner from '../components/Banner';
-import Conocenos from '../components/Conocenos';
-import Tratamientos from '../components/Tratamientos';
+import Banner from '../components/inicio/Banner';
+import Conocenos from '../components/inicio/Conocenos';
+import Tratamientos from '../components/inicio/Tratamientos';
 import Footer from '../components/Footer';
 
+export default function Inicio() {
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
-export default function Inicio(){
-    return(
-        <div className="App">
-            <NavBar/>
-            <Banner/>
-            <Conocenos/>
-            <Etica/>
-            <Tratamientos/>
-            <Footer/>
-         </div>
-    )
-
+  return (
+    <div className="App">
+      <NavBar />
+      <Banner />
+      <Conocenos />
+      <Etica />
+      <Tratamientos />
+      <Footer />
+    </div>
+  );
 }

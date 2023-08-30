@@ -39,6 +39,8 @@ export const  NavBar=()=>{
         setActiveLink(value);
       }
 
+
+
       return (
 
           <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
@@ -51,10 +53,10 @@ export const  NavBar=()=>{
               </Navbar.Toggle>
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
-                  <Nav.Link href="#conocenos" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Conocenos</Nav.Link>
-                  <Nav.Link href="#etica" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Etica</Nav.Link>
+                  <Nav.Link href="#etica" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Conócenos</Nav.Link>
+                  <Nav.Link href="#conocenos" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}> Ética</Nav.Link>
                   <Nav.Link href="#tratamientos" className={activeLink === 'tratamientos' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('tratamientos')}>Tratamientos</Nav.Link>
-                  <Link to="/Dr.JorgeMtz/Informacion" className="infoLink">Informacion</Link>
+                  <Link to="/Dr.JorgeMtz/Informacion" className="infoLink" >Información</Link>
                 </Nav>
 
               </Navbar.Collapse>

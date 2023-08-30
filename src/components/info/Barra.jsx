@@ -53,7 +53,7 @@ export const  Barra=()=>{
                 <Nav className="ms-auto">
 
                   <Nav.Link href="#instalaciones" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Instalaciones</Nav.Link>
-                  <Nav.Link href="#preguntas" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Preguntas</Nav.Link>
+                  <Nav.Link href="#FAQSection" className={activeLink === 'FAQSection' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('FAQSection')}>Preguntas</Nav.Link>
                   <Nav.Link href="#blig" className={activeLink === 'tratamientos' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('tratamientos')}>Blog</Nav.Link>
                   <Link to="/Dr.JorgeMtz/" className="infoLink">Inicio</Link>
                 </Nav>
