@@ -8,7 +8,7 @@ export default function Footer() {
             <p className="textoFooter"><strong>Teléfono: </strong> 8112315980</p>
             <p className="textoFooter"> <strong>WhatsApp: </strong>8180101884</p>
             <p className="textoFooter"><strong>Email: </strong> drjorgemtz.c@gmail.com </p>
-            <p className="textoFooter"><strong>Dirección:</strong>  Valle Sol 122 consultorio 206, Edificio Legacy, colonia La Diana.</p>
+            <p className="textoFooter"><strong>Dirección:</strong>  Valle Sol 122 consultorio 206, Edificio Legacy, <br/> Colonia La Diana, CP 66266, San Pedro Garza García, Nuevo León </p>
 
         </div>
 
