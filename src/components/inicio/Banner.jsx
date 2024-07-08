@@ -1,7 +1,7 @@
 
 export default function Banner(){
     return(
-        <div>
+        <div >
             <header className ="bannerWrap">
         <div className= "bannerBox">
             <div className="overlay">

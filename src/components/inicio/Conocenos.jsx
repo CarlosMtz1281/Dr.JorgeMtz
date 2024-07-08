@@ -7,7 +7,7 @@ export default function Etica(){
 
         <div className="eticaSection">
 
-        <div className="tratamientosSpacer" id="etica"></div>
+        <div className="tratamientosSpacer" id="Conocenos"></div>
         <div className="tratamientosSpacer" ></div>
         <h1 className="iconsectionTitle" >Conócenos</h1>
 

@@ -5,8 +5,8 @@ import { useEffect } from "react";
 import { Barra } from "../components/info/Barra";
 import Banner from "../components/inicio/Banner";
 import FAQ from "../components/info/FAQ";
-import Blog from "../components/info/MBlog";
 import Footer from "../components/Footer";
+import Ubicacion from "../components/info/UbicacionM";
 
 
 export default function InformacionM(){
@@ -18,7 +18,7 @@ export default function InformacionM(){
             <Barra/>
             <Banner/>
             <FAQ/>
-            <Blog/>
+            <Ubicacion/>
             <Footer/>
         </div>
     )

@@ -1,10 +1,15 @@
 
 import img1 from '../../assets/fotosConsultorio/foto11.jpg'
+import img2 from '../../assets/FotosTratamientos/implantes.jpg'
+import img3 from '../../assets/FotosTratamientos/fotoPerfil.jpeg'
+import img4 from '../../assets/FotosTratamientos/tercerosMolares.jpeg'
+import img5 from '../../assets/FotosTratamientos/laser.jpeg'
+import img6 from '../../assets/FotosTratamientos/bucal.jpeg'
 
 export default function Tratamientos(){
     return(
         <div className='tratamientosSection'>
-            <div id='tratamientos'></div>
+            <div id='Tratamientos'></div>
             <div className='tratamientosSpacer'></div>
 
             <h1 className="trataminetosTitulo" >Tratamientos</h1>
@@ -13,9 +18,9 @@ export default function Tratamientos(){
 
             {/* Empieza la tabla de tratamientos*/ }
 
-            <div className="tablaTratamientos"  >
-                    <div className="cajaTratamientosImg" style={{backgroundImage: `url(${img1})`}}>
-                        <img src={img1} alt="Error" className='fotoTratamientos' />
+            <div className="tablaTratamientosM"  >
+                    <div className="cajaTratamientosImg" >
+                        <img src={img4} alt="Error" className='fotoTratamientos' />
                     </div>
                     <div className="cajaTratamientos">
                         <div className="textoTratamientos_pM">
@@ -26,9 +31,9 @@ export default function Tratamientos(){
             </div>
 
 
-            <div className="tablaTratamientos"  >
-                     <div className="cajaTratamientosImg" style={{backgroundImage: `url(${img1})`}}>
-                            <img src={img1} alt="Error" className='fotoTratamientos' />
+            <div className="tablaTratamientosM"  >
+                     <div className="cajaTratamientosImg" >
+                            <img src={img3} alt="Error" className='fotoTratamientos' />
                     </div>
 
                     <div className="cajaTratamientos">
@@ -41,9 +46,9 @@ export default function Tratamientos(){
 
             </div>
 
-            <div className="tablaTratamientos"  >
-                    <div className="cajaTratamientosImg" style={{backgroundImage: `url(${img1})`}}>
-                        <img src={img1} alt="Error" className='fotoTratamientos' />
+            <div className="tablaTratamientosM"  >
+                    <div className="cajaTratamientosImg" >
+                        <img src={img2} alt="Error" className='fotoTratamientos' />
                     </div>
                     <div className="cajaTratamientos">
                         <div className="textoTratamientos_pM">
@@ -53,9 +58,9 @@ export default function Tratamientos(){
                 </div>
             </div>
 
-            <div className="tablaTratamientos"  >
-                    <div className="cajaTratamientosImg" style={{backgroundImage: `url(${img1})`}}>
-                        <img src={img1} alt="Error" className='fotoTratamientos' />
+            <div className="tablaTratamientosM"  >
+                    <div className="cajaTratamientosImg" >
+                        <img src={img5} alt="Error" className='fotoTratamientos' />
                     </div>
                     <div className="cajaTratamientos">
                         <div className="textoTratamientos_pM">
@@ -66,9 +71,11 @@ export default function Tratamientos(){
             </div>
 
 
-            <div className="tablaTratamientos"  >
-                    <div className="cajaTratamientosImg" style={{backgroundImage: `url(${img1})`}}>
-                        <img src={img1} alt="Error" className='fotoTratamientos' />
+
+
+            <div className="tablaTratamientosM"  >
+                    <div className="cajaTratamientosImg" >
+                        <img src={img6} alt="Error" className='fotoTratamientos' />
                     </div>
                     <div className="cajaTratamientos">
                         <div className="textoTratamientos_pM">

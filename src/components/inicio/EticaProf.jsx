@@ -1,13 +1,13 @@
 
 import img1 from "../../assets/fotosConsultorio/foto12.jpg"
 import img2 from "../../assets/fotosConsultorio/foto7.jpg"
-import img3 from "../../assets/fotosConsultorio/foto16.jpg"
+import img3 from "../../assets/fotosConsultorio/foto4.jpg"
 
 export default function Conocenos(){
     return(
         <div>
             <section className="conocenosSection">
-            <div className="valoresID" id="conocenos"></div>
+            <div className="valoresID" id="NuestrosValores"></div>
 
 
 
@@ -18,7 +18,7 @@ export default function Conocenos(){
 
          <div className="row mb-4">
             <div className="col-md-4">
-                <a href="javascript:void(0)" className="overlay-img">
+                <a href="javascript:void(0)" className="overlayImgMOBILE">
                     <img src={img1} alt="Error"/>
                     <div className="overlay"></div>
                     <div className="des">
@@ -30,7 +30,7 @@ export default function Conocenos(){
             </div>
 
             <div className="col-md-4" >
-                <a href="javascript:void(0)" className="overlay-img">
+                <a href="javascript:void(0)" className="overlayImgMOBILE">
                     <img src={img3}  alt="Error"/>
                     <div className="overlay"></div>
                     <div className="des">
@@ -42,7 +42,7 @@ export default function Conocenos(){
             </div>
 
             <div className="col-md-4">
-                <a href="javascript:void(0)" className="overlay-img">
+                <a href="javascript:void(0)" className="overlayImgMOBILE">
                     <img src={img2}  alt="Error"/>
                     <div className="overlay"></div>
                     <div className="des">

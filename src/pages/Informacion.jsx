@@ -7,6 +7,7 @@ import Banner from "../components/inicio/Banner";
 import FAQ from "../components/info/FAQ";
 import Blog from "../components/info/Blog";
 import Footer from "../components/Footer";
+import Ubicacion from "../components/info/Ubicacion";
 
 
 export default function Informacion(){
@@ -18,7 +19,7 @@ export default function Informacion(){
             <Barra/>
             <Banner/>
             <FAQ/>
-            <Blog/>
+            <Ubicacion/>
             <Footer/>
         </div>
     )

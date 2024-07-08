@@ -7,7 +7,7 @@ export default function EticaProfM(){
     return(
         <div>
             <section className="conocenosSection">
-            <div className="valoresID" id="conocenos"></div>
+            <div className="valoresID" id="NuestrosValores"></div>
 
 
 

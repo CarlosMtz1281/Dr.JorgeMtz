@@ -9,7 +9,7 @@ import img6 from '../../assets/FotosTratamientos/bucal.jpeg'
 export default function Tratamientos(){
     return(
         <div className='tratamientosSection'>
-            <div id='tratamientos'></div>
+            <div id='Tratamientos'></div>
             <div className='tratamientosSpacer'></div>
 
             <h1 className="trataminetosTitulo" >Tratamientos</h1>
@@ -19,7 +19,7 @@ export default function Tratamientos(){
             {/* Empieza la tabla de tratamientos*/ }
 
             <div className="tablaTratamientos"  >
-                    <div className="cajaTratamientosImg" style={{backgroundImage: `url(${img1})`}}>
+                    <div className="cajaTratamientosImg" >
                         <img src={img4} alt="Error" className='fotoTratamientos' />
                     </div>
                     <div className="cajaTratamientos">
@@ -39,13 +39,13 @@ export default function Tratamientos(){
                         </div>
 
                 </div>
-                    <div className="cajaTratamientosImg" style={{backgroundImage: `url(${img1})`}}>
+                    <div className="cajaTratamientosImg" >
                             <img src={img3} alt="Error" className='fotoTratamientos' />
                     </div>
             </div>
 
             <div className="tablaTratamientos"  >
-                    <div className="cajaTratamientosImg" style={{backgroundImage: `url(${img1})`}}>
+                    <div className="cajaTratamientosImg" >
                         <img src={img2} alt="Error" className='fotoTratamientos' />
                     </div>
                     <div className="cajaTratamientos">
@@ -64,13 +64,13 @@ export default function Tratamientos(){
                         </div>
 
                 </div>
-                    <div className="cajaTratamientosImg" style={{backgroundImage: `url(${img1})`}}>
+                    <div className="cajaTratamientosImg" >
                             <img src={img5} alt="Error" className='fotoTratamientos' />
                     </div>
             </div>
 
             <div className="tablaTratamientos"  >
-                    <div className="cajaTratamientosImg" style={{backgroundImage: `url(${img1})`}}>
+                    <div className="cajaTratamientosImg">
                         <img src={img6} alt="Error" className='fotoTratamientos' />
                     </div>
                     <div className="cajaTratamientos">

@@ -657,20 +657,25 @@ box-sizing: border-box;
 
 .tablaTratamientos{
 
-
-
     display: grid;
-
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  height: 400px;
 
+}
+.tablaTratamientosM{
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
 }
 
+
 .cajaTratamientos {
 
-  height: 400px;
   position: relative;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
   overflow: hidden;
 
@@ -678,9 +683,12 @@ box-sizing: border-box;
 
 .cajaTratamientosImg {
   background-size: 150%,150%;
-  height: 400px;
+  height: 100%;
+
   position: relative;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -708,26 +716,20 @@ box-sizing: border-box;
 
 }
 .textoTratamientos_p{
-  margin-top:100px;
-  margin-left: 30px;
+  margin: 40px;
   text-align: left;
   color: #121212;
 
 }
 .textoTratamientos_pM{
-  margin: auto;
-  margin-top:8vh;
-  margin-left: 30px;
+  margin: 40px;
   text-align: left;
   color: #121212;
 
 }
 
 
-.textoFranja{
-  margin-bottom: 200px;
-  margin-right: 1.2vw;
-}
+
 
 /*--------------- Trataminetos --------------*/
 .tratamientosSection{
@@ -771,15 +773,7 @@ box-sizing: border-box;
   margin-right: 15px;
 }
 
-.fotoTratamientos{
-  width: 250px;
-  height:300px;
-  margin: auto;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-}
+
 
 .spacerTratamientos{
   height: 30px;
@@ -788,7 +782,8 @@ box-sizing: border-box;
 
 .fotoTratamientos{
   width: 100%;
-  height:100%;
+  height: auto;
+  object-fit: cover;
 }
 
 /* ---------------- FOOTER------------*/
@@ -798,7 +793,6 @@ box-sizing: border-box;
 
   background-color: #212529;
   /* #b1a6a4 */
-  height: 35vh;
   width: 100%;
   display: inline-block;
 }
@@ -808,6 +802,11 @@ box-sizing: border-box;
   margin-top: 30px;
   font-size: 30px;
   color: #fff;
+}
+.footerTxtWrap{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 /*-------------------------botones-----------------------*/
@@ -1106,6 +1105,34 @@ padding: 10px;
     background-position: center;
     background-repeat: no-repeat;
   }
+}
+
+/*    IFRAME    */
+
+.ubicacionGrid{
+  display: grid;
+  grid-template-columns: 30% 60%;
+}
+.ubicacionTextBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:2rem
+}
+
+.iframeMapDesktop{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+.iframeMapMobile{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+margin-bottom: 2rem;
 }
 
 /*--------------------- BLOGG MOBILE BUTTON*/
