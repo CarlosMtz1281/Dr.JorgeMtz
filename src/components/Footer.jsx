@@ -5,10 +5,10 @@ export default function Footer() {
     <section className="pieDePagina">
       <h1 className="tituloFotter">Contactanos</h1>
         <div className="footerTxtWrap">
-            <p className="textoFooter">Teléfono: 8112315980</p>
-            <p className="textoFooter">WhatsApp: 8180101884</p>
-            <p className="textoFooter">Email: drjorgemtz.c@gmail.com </p>
-            <p className="textoFooter">Dirección: Valle Sol 122 consultorio 206, Edificio Legacy, colonia La Diana.</p>
+            <p className="textoFooter"><strong>Teléfono: </strong> 8112315980</p>
+            <p className="textoFooter"> <strong>WhatsApp: </strong>8180101884</p>
+            <p className="textoFooter"><strong>Email: </strong> drjorgemtz.c@gmail.com </p>
+            <p className="textoFooter"><strong>Dirección:</strong>  Valle Sol 122 consultorio 206, Edificio Legacy, colonia La Diana.</p>
 
         </div>
 
