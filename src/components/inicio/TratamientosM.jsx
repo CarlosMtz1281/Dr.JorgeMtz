@@ -1,7 +1,7 @@
 
 import img1 from '../../assets/fotosConsultorio/foto11.jpg'
 import img2 from '../../assets/FotosTratamientos/implantes.jpg'
-import img3 from '../../assets/FotosTratamientos/fotoPerfil.jpeg'
+import img3 from '../../assets/FotosTratamientos/facial.jpeg'
 import img4 from '../../assets/FotosTratamientos/tercerosMolares.jpeg'
 import img5 from '../../assets/FotosTratamientos/laser.jpeg'
 import img6 from '../../assets/FotosTratamientos/bucal.jpeg'

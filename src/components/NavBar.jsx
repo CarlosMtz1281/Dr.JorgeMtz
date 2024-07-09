@@ -11,13 +11,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export const  NavBar=()=>{
-
-
-
-      const handleClick = () => {
-        window.open("https://www.linkedin.com/in/carlosmartinezrdz/");
-      };
-
       const [activeLink, setActiveLink] = useState('home');
       const [scrolled, setScrolled] = useState(false);
 
@@ -56,7 +49,7 @@ export const  NavBar=()=>{
                   <Nav.Link href="#Conocenos" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Conócenos</Nav.Link>
                   <Nav.Link href="#NuestrosValores" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}> Nuestros Valores</Nav.Link>
                   <Nav.Link href="#Tratamientos" className={activeLink === 'tratamientos' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('tratamientos')}>Tratamientos</Nav.Link>
-                  <Link to="/Dr.JorgeMtz/Informacion/#inicio" className="infoLink" >Información</Link>
+                  <Link to="/Informacion/#inicio" className="infoLink" >Información</Link>
                 </Nav>
 
               </Navbar.Collapse>

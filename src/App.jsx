@@ -31,8 +31,8 @@ function App() {
   const mobileV = () => {
     return (
       <Routes>
-        <Route path= "/Dr.JorgeMtz/" element={<InicioM/>}/>
-        <Route path= "/Dr.JorgeMtz/Informacion" element={<InformacionM/>}/>
+        <Route path= "/" element={<InicioM/>}/>
+        <Route path= "/Informacion" element={<InformacionM/>}/>
     </Routes>
     )
   }
@@ -41,8 +41,8 @@ function App() {
     return (
 
         <Routes>
-          <Route path= "/Dr.JorgeMtz/" element={<Inicio/>}/>
-          <Route path= "/Dr.JorgeMtz/Informacion" element={<Informacion/>}/>
+          <Route path= "/" element={<Inicio/>}/>
+          <Route path= "/Informacion" element={<Informacion/>}/>
         </Routes>
 
     )
