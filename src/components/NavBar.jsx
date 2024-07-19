@@ -39,7 +39,16 @@ export const  NavBar=()=>{
           <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
             <Container>
               <Navbar.Brand href="/">
-                <img src={logo} alt="Logo" className="logo"/>
+                <div className="navbarLogoWrp">
+                  <img src={logo} alt="Logo" className="logo"/>
+                  <div className="navbarLogoSeparator">
+                    <p>|</p>
+                  </div>
+                  <div className="navbarLogoTxtWrp">
+                    <h4>Dr. Jorge <br/> Martínez</h4>
+                  </div>
+                </div>
+
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav">
                 <span className="navbar-toggler-icon"></span>
@@ -50,6 +59,8 @@ export const  NavBar=()=>{
                   <Nav.Link href="#NuestrosValores" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}> Nuestros Valores</Nav.Link>
                   <Nav.Link href="#Tratamientos" className={activeLink === 'tratamientos' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('tratamientos')}>Tratamientos</Nav.Link>
                   <Link to="/Informacion/#inicio" className="infoLink" >Información</Link>
+                  <Nav.Link href="#Footer" className={activeLink === 'footer' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('tratamientos')}>Contactanos</Nav.Link>
+
                 </Nav>
 
               </Navbar.Collapse>

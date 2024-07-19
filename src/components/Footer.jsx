@@ -1,8 +1,10 @@
 import "../assets/font-awesome/css/font-awesome.min.css";
 
 export default function Footer() {
+
+
   return (
-    <section className="pieDePagina">
+    <section className="pieDePagina" id="Footer">
       <h1 className="tituloFotter">Contactanos</h1>
         <div className="footerTxtWrap">
             <p className="textoFooter"><strong>Teléfono: </strong> 8112315980</p>
@@ -46,10 +48,11 @@ export default function Footer() {
         </ul>
       </div>
 
-      <p className="firma">Desarollado por Carlos Martinez</p>
-      <p className="copyright">
-        <small> Copyright &copy; 2023, Dr. Jorge Martínez</small>
+      <p className="firma">
+        Copyright &copy; {new Date().getFullYear()}, Dr. Jorge Martínez
       </p>
+      <p className="copyright">Desarollado por Carlos Martinez</p>
+
     </section>
   );
 }

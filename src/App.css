@@ -181,6 +181,33 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border-color: transparent;
 }
 
+/* LOGO NAVBAR*/
+.navbarLogoWrp{
+  display: flex;
+  color: #fff !important;
+  opacity: 0.75 ;
+  height: 4rem;
+  align-items: center;
+}
+.navbarLogoSeparator{
+  width: .2rem;
+  height: 100%;
+  background-color: currentColor;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
+.navbarLogoTxtWrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}h4{
+  margin: 0px;
+  margin-bottom: 0 !important; /* Ensures overriding any other styles */
+}
+
 /*-------------------BANER-------------´*/
 .bannerWrap {
   margin-top: -30px;
@@ -245,6 +272,41 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 25px;
   margin-top: -10px;
 
+}
+
+/* BANNER INFO COMPRIMIDO */
+.bannerWrapInfo {
+  font-family: "helvetica";
+  text-align: center;
+  height: 70vh;
+  color: #fff;
+
+}
+.bannerBoxInfo{
+  background-image: url(./assets/imgs/quirofano.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%,100%;
+  background-position: center top;
+  height: 70vh;
+  display: block;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.bannerBoxInfo .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70vh;
+  background: rgba(52, 58, 64, 0.5);
+  -webkit-transition: all, 1s;
+  transition: all, 1s;
+
+}
+.textoBannerInfo{
+  margin-top: 30vh;
 }
 
 /*-------------_CONOCENOS--------------*/

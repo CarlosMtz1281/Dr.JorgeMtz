@@ -2,10 +2,10 @@
 export default function Banner(){
     return(
         <div >
-            <header className ="bannerWrap">
-        <div className= "bannerBox">
+            <header className ="bannerWrapInfo">
+        <div className= "bannerBoxInfo">
             <div className="overlay">
-            <div className="textoBanner">
+            <div className="textoBannerInfo">
                 {/*agregar spacer */}
             <h1 className = "tittle">Dr. Jorge Martínez</h1>
 
@@ -16,6 +16,7 @@ export default function Banner(){
 
 
     </div>
+
 
 
 

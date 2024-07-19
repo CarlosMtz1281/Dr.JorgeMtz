@@ -3,7 +3,7 @@ import React from "react";
 import { useEffect } from "react";
 
 import { Barra } from "../components/info/Barra";
-import Banner from "../components/inicio/Banner";
+import Banner from "../components/info/BannerInfo";
 import FAQ from "../components/info/FAQ";
 import Blog from "../components/info/Blog";
 import Footer from "../components/Footer";
