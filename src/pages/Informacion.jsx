@@ -5,9 +5,9 @@ import { useEffect } from "react";
 import { Barra } from "../components/info/Barra";
 import Banner from "../components/info/BannerInfo";
 import FAQ from "../components/info/FAQ";
-import Blog from "../components/info/Blog";
 import Footer from "../components/Footer";
 import Ubicacion from "../components/info/Ubicacion";
+import Blog from "../components/info/MBlog";
 
 
 export default function Informacion(){
@@ -20,6 +20,7 @@ export default function Informacion(){
             <Banner/>
             <FAQ/>
             <Ubicacion/>
+            <Blog/>
             <Footer/>
         </div>
     )
