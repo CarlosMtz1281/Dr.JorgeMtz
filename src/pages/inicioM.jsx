@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Etica from '../components/inicio/EticaProfM';
-import { NavBar } from '../Components/NavBar';
+import  NavBar  from "../components/NavBar";
 import Banner from '../components/inicio/Banner';
 import Conocenos from '../components/inicio/Conocenos';
 import Tratamientos from '../components/inicio/TratamientosM';

@@ -10,7 +10,7 @@ import logo from '../assets/logo3.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-export const  NavBar=()=>{
+export default function NavBar(){
       const [activeLink, setActiveLink] = useState('home');
       const [scrolled, setScrolled] = useState(false);
 

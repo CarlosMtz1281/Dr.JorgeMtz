@@ -7,6 +7,7 @@ import Banner from "../components/info/BannerInfo";
 import FAQ from "../components/info/FAQ";
 import Footer from "../components/Footer";
 import Ubicacion from "../components/info/UbicacionM";
+import Blog from "../components/info/MBlog";
 
 
 export default function InformacionM(){
@@ -19,6 +20,7 @@ export default function InformacionM(){
             <Banner/>
             <FAQ/>
             <Ubicacion/>
+            <Blog/>
             <Footer/>
         </div>
     )

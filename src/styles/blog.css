@@ -1,0 +1,197 @@
+/* BLOGGGGGGG*/
+
+.blogWrap {
+  margin-top: 10vh;
+  height: 105vh;
+  color: #121212;
+  background-color: var(--secondary);
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+
+}
+
+.bSectionTittle {
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.carouselContainer {
+  width: 90vw;
+  margin: auto;
+  position: relative;
+}
+
+.blogItem {
+  border-radius: 10px;
+  overflow: hidden;
+  height: 70vh;
+  width: 300px;
+  background-color: var(--white);
+  margin: 0 auto 15px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.blogItem:hover {
+  transform: translateY(-5px); /* Slightly lifts the card on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Intensifies the shadow on hover */
+}
+
+.bFotoCard {
+  width: 100%; /* Adjust as needed */
+  height: 28vh; /* Adjust as needed */
+  object-fit: fill; /* Ensures the image fits within the container while maintaining aspect ratio */
+}
+
+.blogTxtWrap {
+  padding: 15px;
+  color: #121212;
+}
+.blogCardTittle {
+  font-size: 1.5rem;
+  margin-bottom: 1vh;
+  font-weight: bold;
+}
+
+.bLangTag {
+  text-align: right;
+  margin-bottom: 3vh;
+}
+
+.bDescription {
+  font-size: 1rem;
+}
+
+.blogButtonMobileWrp{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    border-radius: 5px;
+}
+.blogButtonMobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #0e0e13;
+}
+.blogButtonMobileText{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: auto;
+}
+
+.customButtonGroup {
+  position: absolute;
+  bottom: -20; /* Aligns the button group to the bottom */
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centers the buttons horizontally */
+}
+
+.customButtonGroup .customButton {
+  background-color: #0e0e13;
+  border: none;
+  font-size: 1.5rem;
+  color: #fffdfd;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 1rem;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.customButtonGroup .customButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #3e3e44;
+  color: #dfdede;
+}
+
+.customButtonGroup .customButton.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.customButtonGroup .customButton.left {
+  margin-left: -4rem;
+  content: "\2190";
+}
+
+.customButtonGroup .customButton.right {
+  margin-right: -4rem;
+  content: "\2190";
+}
+
+/* Hide the left and right arrow buttons */
+.react-multiple-carousel__arrow--left,
+.react-multiple-carousel__arrow--right {
+  display: none;
+}
+
+/*--------------------- BLOGG DESKTOP*/
+
+.blogItemDesktop {
+  border-radius: 10px;
+  overflow: hidden;
+
+  width: 40vw;
+  background-color: var(--secondary);
+  margin: 0 auto 15px auto;
+}
+
+
+
+.blog-button {
+  background-color: #0e0e13;
+  height: 6vh;
+  width: 10vw;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.blog-button:hover {
+  background-color: #3e3e44;
+  color: #dfdede;
+  cursor: pointer;
+}
+
+.blogButtonTxtWrap {
+  padding: 10px;
+}
+
+.blogButtonTxt {
+  color: white;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.bFotoDesktop {
+  width: 100%;
+  height: 40vh;
+}
+.blogSpacer {
+  height: 20vh;
+}
+
+/* PARALAX*/
+.paralaxContainer {
+  height: 400vh;
+}
+
+.parallaxLayer {
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .parallaxLayer {
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

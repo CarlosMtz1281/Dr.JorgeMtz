@@ -3,34 +3,35 @@ export default [
 
     {
         id: 1,
-        tittle: "Articulo 1",
-        description:" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." ,
-        image:"foto1.jpg",
-        link:"Link"
+        tittle: "¿Todos necesitan retirarse las muelas del juicio?",
+        description:"Es procedimiento común cuando no hay espacio suficiente para su correcta erupción, lo que puede causar problemas de salud." ,
+
+        image:"blog1.1.jpg",
+        link:"muelasDelJuicio"
 
     },
     {
         id: 2,
-        tittle: "Articulo 2",
-        description:" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" ,
-        image:"foto1.jpg",
-        link:"Link"
+        tittle: "¿Qué Necesitas saber sobre los Implantes Dentales?",
+        description:" La implantología dental ofrece soluciones duraderas para la pérdida de dientes. Conóce los beneficios del tratamiento." ,
+        image:"blog2.1.jpg",
+        link:"ImplantesDentales"
 
     },
     {
         id: 3,
-        tittle: "Articulo 3",
-        description:" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" ,
-        image:"foto1.jpg",
-        link:"Link"
+        tittle: "¿Me pueden extraer un diente si traigo infección?",
+        description:"¿Cuándo es necesario extraer un diente? casos de caries severas, fracturas o infecciones, pueden requerir extracción dental." ,
+        image:"blog3.1.jpg",
+        link:"ExtraccionDental"
 
     },
     {
         id: 4,
-        tittle: "Articulo 4",
-        description:" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" ,
-        image:"foto1.jpg",
-        link:"Link"
+        tittle: "¿Necesitas un injerto de hueso? infórmate!",
+        description:"La pérdida de hueso en la cavidad oral, causada por infecciones o traumatismos, puede tratarse con injertos óseos. Conoce más sobre este procedimiento." ,
+        image:"blog4.1.jpg",
+        link:"InjertoHueso"
 
     },
 

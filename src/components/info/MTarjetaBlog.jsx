@@ -1,31 +1,26 @@
 import React from "react";
+import { Image } from "react-bootstrap";
 
+export default function TarjetaBlog(props) {
 
+    const sendToBlog = () => {
+        window.location.href = "/blogs/" + props.item.link;
+    }
 
-export default function TarjetaBlog(props){
-    return(
+    return (
         <div>
             <div className="blogItem">
-
-            <img src={("fotosConsultorio/"+ props.item.image)} className="bFoto"/>
-
-
-            <div className="blogTxtWrap">
-                <h3>{props.item.tittle}</h3>
-
-                <p className="bDescription">{props.item.description}</p>
-
-                <div className="blog-button">
-                    <div className="blogButtonTxtWrap">
-                        <h2 className="blogButtonTxt">Leer más</h2>
+                <Image src={("/blog/" + props.item.image)} className="bFotoCard" />
+                <div className="blogTxtWrap">
+                    <h3 className="blogCardTittle">{props.item.tittle}</h3>
+                    <p className="bDescription">{props.item.description}</p>
+                    <div className="blogButtonMobileWrp">
+                        <button className="blogButtonMobile" onClick={sendToBlog}>
+                            <p className="blogButtonMobileText">Leer más</p>
+                        </button>
                     </div>
                 </div>
-
-
-             </div>
-
-
             </div>
         </div>
-    )
+    );
 }
