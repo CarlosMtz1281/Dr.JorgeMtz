@@ -1,14 +1,14 @@
 {
-  "/Informacion": "pages/Informacion.js",
+  "/_error": "pages/_error.js",
   "/BlogsPage": "pages/BlogsPage.js",
+  "/Informacion": "pages/Informacion.js",
+  "/_app": "pages/_app.js",
   "/Inicio": "pages/Inicio.js",
   "/blogs/Blog1": "pages/blogs/Blog1.js",
-  "/blogs/Blog2": "pages/blogs/Blog2.js",
-  "/blogs/Blog3": "pages/blogs/Blog3.js",
   "/blogs/Blog4": "pages/blogs/Blog4.js",
-  "/informacionM": "pages/informacionM.js",
+  "/blogs/Blog3": "pages/blogs/Blog3.js",
+  "/blogs/Blog2": "pages/blogs/Blog2.js",
   "/inicioM": "pages/inicioM.js",
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
+  "/informacionM": "pages/informacionM.js",
   "/_document": "pages/_document.js"
 }

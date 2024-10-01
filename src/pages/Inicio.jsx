@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect } from "react";
 import Etica from '../components/inicio/EticaProf';
 import  NavBar  from '../components/NavBar';
