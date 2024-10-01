@@ -11,8 +11,8 @@ const Blog2 = () => {
             <div className='articleWrap'>
                 <h1>¿Qué es importante saber sobre los Implantes Dentales?</h1>
                 <div className='articleInfo'>
-                    <p>Author: Jorge Martinez</p>
-                    <p>Fecha: Septiembre 21, 2024</p>
+                    <p>Jorge Martinez</p>
+                    <p>2024</p>
                 </div>
 
                 <p>

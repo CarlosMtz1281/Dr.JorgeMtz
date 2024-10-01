@@ -1,19 +1,20 @@
 import React from 'react';
 import Navbar from '../../components/NavBar';
 import Footer from '../../components/Footer';
+import {Barra} from '../../components/info/Barra';
 import { Image } from 'react-bootstrap';
 import '../../styles/blogPages.css';
 
 const Blog1 = () => {
     return (
         <div className='BlogPage'>
-            <Navbar/>
+            <Barra/>
             <div className='articleWrap'>
                 <h1>¿Todos necesitan retirarse las muelas del juicio?</h1>
                 <div className='articleInfo'>
 
-                    <p>Author: Jorge Martinez</p>
-                    <p>Fecha: Agosto 22, 2024</p>
+                    <p>Jorge Martinez</p>
+                    <p>2024</p>
                 </div>
 
 

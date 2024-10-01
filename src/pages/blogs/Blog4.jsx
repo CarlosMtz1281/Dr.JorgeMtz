@@ -11,8 +11,8 @@ const Blog4 = () => {
             <div className='articleWrap'>
                 <h1>¿Necesitas un injerto de hueso?..., infórmate!</h1>
                 <div className='articleInfo'>
-                    <p>Author: Jorge Martinez</p>
-                    <p>Fecha: Agosto 22, 2024</p>
+                    <p>Jorge Martinez</p>
+                    <p>2024</p>
                 </div>
 
                 <p>

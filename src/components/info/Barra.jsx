@@ -51,7 +51,10 @@ export const  Barra=()=>{
 
                   <Nav.Link href="#FAQSection" className={activeLink === 'FAQSection' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('FAQSection')}>Preguntas</Nav.Link>
                   <Nav.Link href="#ubicacion" className={activeLink === 'tratamientos' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('ubicacion')}>Ubicacion</Nav.Link>
+                  <Nav.Link href="#ubicacion" className={activeLink === 'tratamientos' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('ubicacion')}>Blogs</Nav.Link>
                   <Link to="/" className="infoLink">Inicio</Link>
+                  <Link to="/Blog" className="infoLink">Blogs</Link>
+
                   <Nav.Link href="#Footer" className={activeLink === 'footer' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('tratamientos')}>Contactanos</Nav.Link>
 
                 </Nav>

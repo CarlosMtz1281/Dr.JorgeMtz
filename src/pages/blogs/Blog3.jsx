@@ -11,8 +11,8 @@ const Blog3 = () => {
             <div className='articleWrap'>
                 <h1>¿Me pueden extraer un diente si traigo infección?</h1>
                 <div className='articleInfo'>
-                    <p>Author: Jorge Martinez</p>
-                    <p>Fecha: Agosto 22, 2024</p>
+                    <p>Jorge Martinez</p>
+                    <p>2024</p>
                 </div>
 
                 <p>

@@ -58,7 +58,7 @@ export default function Blog(){
                 <section >
 
                 <div className="blogWrap">
-                    <h1 className="bSectionTittle">Blog</h1>
+                    <h1 className="bSectionTittle">Blogs</h1>
 
                 {/*  Centrar contenedor con padding
                 */}

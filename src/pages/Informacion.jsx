@@ -20,7 +20,6 @@ export default function Informacion(){
             <Banner/>
             <FAQ/>
             <Ubicacion/>
-            <Blog/>
             <Footer/>
         </div>
     )

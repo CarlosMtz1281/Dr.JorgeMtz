@@ -10,7 +10,7 @@ import Ubicacion from "../components/info/UbicacionM";
 import Blog from "../components/info/MBlog";
 
 
-export default function InformacionM(){
+export default function Blogs(){
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
@@ -18,8 +18,7 @@ export default function InformacionM(){
         <div>
             <Barra/>
             <Banner/>
-            <FAQ/>
-            <Ubicacion/>
+            <Blog/>
             <Footer/>
         </div>
     )
