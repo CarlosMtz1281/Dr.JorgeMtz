@@ -3,7 +3,6 @@ import Navbar from '../../components/NavBar';
 import Footer from '../../components/Footer';
 import {Barra} from '../../components/info/Barra';
 import { Image } from 'react-bootstrap';
-import '../../styles/blogPages.css';
 
 const Blog1 = () => {
     return (

@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from '../../components/NavBar';
 import Footer from '../../components/Footer';
 import { Image } from 'react-bootstrap';
-import '../../styles/blogPages.css';
 
 const Blog3 = () => {
     return (

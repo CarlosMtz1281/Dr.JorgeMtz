@@ -19,6 +19,11 @@ import Blog4 from "./pages/blogs/Blog4";
 import { Routes,Route } from 'react-router-dom';
 import Blog from './components/info/MBlog';
 
+import './styles/BlogPages.css';
+import "./styles/blog.css";
+import "./assets/font-awesome/css/font-awesome.min.css";
+
+
 function App() {
   {/*FUNCIONES Y OPTIMICACION MOVIL ESCRITORIUO */}
   const getWindowDimension = () => {
