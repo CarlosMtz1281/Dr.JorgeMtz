@@ -75,7 +75,15 @@ function App() {
 
   return (
     <div className="App">
-       {getWindowDimension()}
+       <Routes>
+          <Route path= "/" element={<Inicio/>}/>
+          <Route path= "/Informacion" element={<Informacion/>}/>
+          <Route path= "/Blog" element={<BlogsPage/>}/>
+          <Route path= "/blogs/MuelasDelJuicio" element={<Blog1/>}/>
+          <Route path= "/blogs/ImplantesDentales" element={<Blog2/>}/>
+          <Route path= "/blogs/ExtraccionDental" element={<Blog3/>}/>
+          <Route path= "/blogs/InjertoHueso" element={<Blog4/>}/>
+        </Routes>
     </div>
   )
 }
