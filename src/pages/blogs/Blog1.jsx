@@ -1,15 +1,15 @@
 "use client"
 
 import React from 'react';
-import Navbar from '../../components/NavBar';
+import {NavBarBlog} from '../../components/inicio/NavBarBlog';
+
 import Footer from '../../components/Footer';
-import {Barra} from '../../components/info/Barra';
 import { Image } from 'react-bootstrap';
 
 const Blog1 = () => {
     return (
         <div className='BlogPage'>
-            <Barra/>
+            <NavBarBlog/>
             <div className='articleWrap'>
                 <h1>¿Todos necesitan retirarse las muelas del juicio?</h1>
                 <div className='articleInfo'>

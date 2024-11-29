@@ -3,7 +3,7 @@
 import React from "react";
 import { useEffect } from "react";
 
-import { Barra } from "../components/info/Barra";
+import { NavBarBlog } from "../components/inicio/NavBarBlog";
 import Banner from "../components/info/BannerInfo";
 import FAQ from "../components/info/FAQ";
 import Footer from "../components/Footer";
@@ -17,7 +17,7 @@ export default function Blogs(){
       }, []);
     return (
         <div>
-            <Barra/>
+            <NavBarBlog/>
             <Banner/>
             <Blog/>
             <Footer/>

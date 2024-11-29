@@ -1,14 +1,14 @@
 "use client"
 
 import React from 'react';
-import Navbar from '../../components/NavBar';
+import {NavBarBlog} from '../../components/inicio/NavBarBlog';
 import Footer from '../../components/Footer';
 import { Image } from 'react-bootstrap';
 
 const Blog2 = () => {
     return (
         <div className='BlogPage'>
-            <Navbar/>
+            <NavBarBlog/>
             <div className='articleWrap'>
                 <h1>¿Qué es importante saber sobre los Implantes Dentales?</h1>
                 <div className='articleInfo'>
