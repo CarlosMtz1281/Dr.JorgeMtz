@@ -33,18 +33,19 @@
 
 .fotoContainer {
     width: 100%;
-    max-height: 50vh; /* Adjusting the max-height instead of fixed height */
-    overflow: hidden;
-    border-radius: 5px;
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
     margin-bottom: 2rem;
     margin-top: 2rem;
+    overflow: hidden; /* Ensures no content spills outside */
 }
 
 .bFoto {
-    width: 100%;
-    height: auto; /* Let the height adjust automatically based on the aspect ratio */
-    object-fit: contain; /* Ensures the image is fully visible without being cropped */
-    border-radius: 5px; /* Optional: Add border-radius to match the container */
+    max-height: 50vh; /* Ensures the image doesn't exceed 40% of the viewport height */
+    height: auto; /* Maintains the image's aspect ratio */
+    width: auto; /* Maintains the image's aspect ratio */
+    object-fit: contain; /* Ensures the image is fully visible */
 }
 
 /* Desktop-specific styles */
@@ -67,9 +68,11 @@
     }
 
     .fotoContainer {
-        max-height: 60vh; /* Increase max-height for desktop */
+        display: flex;
+        max-height: 40vh; /* Increase max-height for desktop */
         margin-bottom: 3rem; /* Adjust margin-bottom for desktop */
         margin-top: 3rem; /* Adjust margin-top for desktop */
+        align-items: center;
     }
 
     .bFoto {
