@@ -46,6 +46,7 @@ nav.navbar.scrolled {
 nav.navbar a.navbar-brand {
     width: 9%;
 }
+/* General Navigation Link Styles */
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
@@ -53,10 +54,16 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   padding: 0 25px;
   font-size: 18px;
   opacity: 0.75;
+  cursor: pointer;
+  transition: opacity 0.3s ease, color 0.3s ease;
 }
+
+/* Highlight Active Link and Hover Effect */
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
-    opacity: 1;
+  opacity: 1;
+  font-weight: 500;
+  
 }
 span.navbar-text {
     display: flex;

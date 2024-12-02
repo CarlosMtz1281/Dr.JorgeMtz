@@ -9,6 +9,7 @@ import FAQ from "../components/info/FAQ";
 import Footer from "../components/Footer";
 import Ubicacion from "../components/info/Ubicacion";
 import Blog from "../components/info/MBlog";
+import NavBarGlobal from "../components/NavBarGlobal";
 
 
 export default function Informacion(){
@@ -17,7 +18,7 @@ export default function Informacion(){
       }, []);
     return (
         <div>
-            <Barra/>
+            <NavBarGlobal/>
             <Banner/>
             <FAQ/>
             <Ubicacion/>

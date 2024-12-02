@@ -17,6 +17,9 @@ export const NavBarBlog = () => {
     const onUpdateActiveLink = (value) => {
         setActiveLink(value);
     };
+    const isActiveLink = (path) => {
+        return location.pathname === path ? "nav-link navbar-link active" : "nav-link navbar-link";
+      };
 
     return (
         <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
@@ -37,8 +40,9 @@ export const NavBarBlog = () => {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Link to="/" className="infoLink">Inicio</Link>
-                        <Link to="/Blog" className="infoLink">Blogs</Link>
+                    <Link to="/" className={isActiveLink("/")}>Inicio</Link>
+                        <Link to="/Informacion" className={isActiveLink("/Informacion")}>Información</Link>
+                        <Link to="/Blog" className={isActiveLink("/Blog")}>Blogs</Link>
                         <Nav.Link href="#Footer" className={activeLink === 'footer' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('tratamientos')}>Contactanos</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

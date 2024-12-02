@@ -2,7 +2,6 @@
 
 import React from 'react';
 import {NavBarBlog} from '../../components/inicio/NavBarBlog';
-
 import Footer from '../../components/Footer';
 import { Image } from 'react-bootstrap';
 

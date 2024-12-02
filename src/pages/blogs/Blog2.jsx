@@ -8,7 +8,7 @@ import { Image } from 'react-bootstrap';
 const Blog2 = () => {
     return (
         <div className='BlogPage'>
-            <NavBarBlog/>
+            <Navbar/>
             <div className='articleWrap'>
                 <h1>¿Qué es importante saber sobre los Implantes Dentales?</h1>
                 <div className='articleInfo'>

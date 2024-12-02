@@ -6,6 +6,7 @@ import Banner from '../components/inicio/Banner';
 import Conocenos from '../components/inicio/Conocenos';
 import Tratamientos from '../components/inicio/Tratamientos';
 import Footer from '../components/Footer';
+import NavBarGlobal from "../components/NavBarGlobal";
 
 export default function Inicio() {
 
@@ -15,7 +16,7 @@ export default function Inicio() {
 
   return (
     <div className="App">
-      <NavBar />
+      <NavBarGlobal />
       <Banner />
       <Conocenos />
       <Etica />
