@@ -55,9 +55,7 @@ export default function NavBar(){
               </Navbar.Toggle>
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
-                  <Nav.Link href="#Conocenos" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Conócenos</Nav.Link>
-                  <Nav.Link href="#NuestrosValores" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}> Nuestros Valores</Nav.Link>
-                  <Nav.Link href="#Tratamientos" className={activeLink === 'tratamientos' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('tratamientos')}>Tratamientos</Nav.Link>
+                  <Link to="/" className="infoLink">Inicio</Link>
                   <Link to="/Informacion/#inicio" className="infoLink" >Información</Link>
                   <Link to="/Blog" className="infoLink" >Blogs</Link>
 

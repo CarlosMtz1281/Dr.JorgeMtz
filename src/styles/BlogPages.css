@@ -48,34 +48,17 @@
     object-fit: contain; /* Ensures the image is fully visible */
 }
 
-/* Desktop-specific styles */
-@media (min-width: 769px) {
-    .articleWrap {
-        padding: 4rem 10vw; /* Increase padding for desktop */
-        margin-top: 10rem; /* Adjust margin-top for desktop */
-    }
-
-    .articleWrap h1 {
-        font-size: 3rem; /* Increase font size for desktop */
-    }
-
-    .articleWrap h3 {
-        font-size: 2rem; /* Increase font size for desktop */
-    }
-
-    .articleInfo {
-        font-size: 1.2rem; /* Increase font size for desktop */
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    .bFoto {
+        width: 100%; /* Ensures the image spans the full width of the container */
+        height: auto; /* Maintains the aspect ratio */
+        max-height: none; /* Removes any max-height constraint */
+        object-fit: contain; /* Prevents cropping and ensures the entire image is visible */
     }
 
     .fotoContainer {
-        display: flex;
-        max-height: 40vh; /* Increase max-height for desktop */
-        margin-bottom: 3rem; /* Adjust margin-bottom for desktop */
-        margin-top: 3rem; /* Adjust margin-top for desktop */
-        align-items: center;
-    }
-
-    .bFoto {
-        object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+        margin-top: 1rem; /* Adjust top margin for mobile */
+        margin-bottom: 1rem; /* Adjust bottom margin for mobile */
     }
 }
