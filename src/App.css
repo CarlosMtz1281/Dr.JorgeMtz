@@ -281,6 +281,57 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: -10px;
 
 }
+.btnContactanos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto 10px;
+  background-color: #6390a2;
+  border-radius: 12px;
+  width: 220px;
+  height: 55px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btnContactanos::after {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 100%;
+  top: 0;
+  left: -110%;
+  background: linear-gradient(120deg, rgba(255,255,255,0.15), rgba(255,255,255,0));
+  transform: skewX(-20deg);
+  transition: left 0.5s ease;
+}
+
+.btnContactanos:hover::after {
+  left: 100%;
+}
+
+.btnContactanos:hover {
+  background-color: #527687; /* ← darker shade of #6390a2 */
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  color: #fff; /* ← ensures text stays white */
+  text-decoration: none;
+}
+
+.btnContactanos:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-decoration: none;
+}
+
 
 /* BANNER INFO COMPRIMIDO */
 .bannerWrapInfo {
